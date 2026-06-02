@@ -235,7 +235,7 @@ nav {
 }
 
 .contact-icon {
-  width: 1.3rem;
+  max-width: 1.3rem;
   height: 100%;
   opacity: 0.9;
   flex-shrink: 0;
@@ -370,6 +370,10 @@ nav {
 
   /* SECTION */
 
+  .hero {
+    background-attachment: scroll;
+  }
+
   .hero__content {
     padding: 2rem 1.5rem 3rem;
   }
@@ -401,6 +405,10 @@ nav {
 
   .section__content--map h2 {
     display: none;
+  }
+
+  .section__quote {
+    padding: 1rem 0;
   }
 
   .map-wrapper iframe {
