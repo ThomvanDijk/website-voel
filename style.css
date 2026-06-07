@@ -105,8 +105,6 @@ nav {
 /* HERO */
 
 .hero {
-  padding: 0;
-  padding-bottom: 3rem;
   background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
@@ -114,10 +112,10 @@ nav {
 }
 
 .hero__content {
-  max-width: var(--content-width);
+  max-width: 1000px;
   margin: auto;
   text-align: center;
-  padding: 8rem 3.5rem 10rem;
+  padding: 8rem 3.5rem 14rem;
   font-size: 1.1rem;
   color: var(--text-color-light);
 }
@@ -125,10 +123,12 @@ nav {
 .hero__title {
   font-size: 6rem;
   font-weight: 350;
+  margin-bottom: 0;
 }
 
 .hero__tagline {
   font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* SECTION */
@@ -197,6 +197,7 @@ nav {
 /* MISC */
 
 .button {
+  margin-top: 0.5rem;
   padding: 0.4rem 1.5rem 0.5rem;
   border-radius: 999px;
   border: 1px solid var(--button-border-color);
@@ -375,7 +376,7 @@ nav {
   }
 
   .hero__content {
-    padding: 2rem 1.5rem 3rem;
+    padding: 2rem 1.5rem 6rem;
   }
 
   .section { 
